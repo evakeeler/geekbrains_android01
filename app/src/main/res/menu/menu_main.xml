@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.geekbrains01.sogoodworkout.activities.WorkoutDetailActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"
+        tools:context=".activities.WorkoutDetailActivity" />
+    <item
+        android:id="@+id/localization_ru"
+        android:orderInCategory="100"
+        android:title="@string/local_ru"
+        app:showAsAction="never"
+        tools:context=".activities.WorkoutDetailActivity" />
+    <item
+        android:id="@+id/localization_en"
+        android:orderInCategory="100"
+        android:title="@string/local_en"
+        app:showAsAction="never"
+        tools:context=".activities.WorkoutDetailActivity" />
+</menu>
