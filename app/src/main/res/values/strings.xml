@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">So Good Workout</string>
+    <string name="local_ru">RUSSIAN</string>
+    <string name="local_en">ENGLISH</string>
+    <string name="action_settings">Settings</string>
+    <string name="label_record">Best result</string>
+    <string name="date_text">"Date: "</string>
+    <string name="reps_count_text">"Reps count: "</string>
+    <string name="reps_count_number">0</string>
+    <string name="weight_text">"Weight: "</string>
+    <string name="weight_number">30</string>
+    <string name="kg">" kg."</string>
+    <string name="save">Save</string>
+    <string name="workout_detail_record_date_entry">01.01.2012</string>
+</resources>

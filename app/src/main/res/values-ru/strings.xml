@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">So Good Workout</string>
+    <string name="local_ru">РУССКИЙ</string>
+    <string name="local_en">АНГЛИЙСКИЙ</string>
+    <string name="action_settings">Настройки</string>
+    <string name="label_record">Лучший результат</string>
+    <string name="date_text">Дата: </string>
+    <string name="reps_count_number">0</string>
+    <string name="weight_number">30</string>
+    <string name="kg">" кг."</string>
+    <string name="workout_detail_record_date_entry">01.01.2012</string>
+    <string name="reps_count_text">"Количество повторов: "</string>
+    <string name="weight_text">"Вес: "</string>
+    <string name="save">Сохранить</string>
+</resources>
