@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="8dp"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/dialog_holo_light_frame">
+
+        <ImageView
+            android:id="@+id/list_item_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="4dp"
+            android:src="@drawable/ic_more"
+            android:background="@android:drawable/editbox_dropdown_light_frame"/>
+
+        <ImageView
+            android:id="@+id/list_item_image_view"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="4dp"
+            android:src="@color/colorPrimary"
+            android:background="@android:drawable/editbox_dropdown_light_frame"/>
+        <TextView
+            android:id="@+id/list_item_title_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/list_item_image_view"
+            android:layout_toLeftOf="@+id/list_item_more"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="4dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:text="@string/list_item_description_top"/>
+        <TextView
+            android:id="@+id/list_item_description_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/list_item_description"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:layout_toRightOf="@+id/list_item_image_view"
+            android:layout_below="@+id/list_item_title_text_view"/>
+        
+        <View
+            android:id="@+id/list_item_horizontal_separator"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_below="@+id/list_item_description_text_view"
+            android:background="@color/colorPrimary"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp"
+            android:layout_below="@+id/list_item_horizontal_separator"
+            android:background="@android:drawable/dialog_holo_light_frame">
+
+            <LinearLayout
+                style="@style/RecordLinLayout"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp">
+                <ImageView
+                    style="@style/WrapContentHW"
+                    android:src="@drawable/ic_weight"/>
+                <TextView
+                    style="@style/WrapContentHW"
+                    android:text="50кг."/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/RecordLinLayout"
+                android:layout_marginTop="4dp">
+                <ImageView
+                    style="@style/WrapContentHW"
+                    android:src="@drawable/ic_counter"/>
+                <TextView
+                    style="@style/WrapContentHW"
+                    android:text="50"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                style="@style/RecordLinLayout"
+                android:layout_marginTop="4dp"
+                >
+                <ImageView
+                    style="@style/WrapContentHW"
+                    android:src="@drawable/ic_calendar"/>
+                <TextView
+                    style="@style/WrapContentHW"
+                    android:text="01.01.2018"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
